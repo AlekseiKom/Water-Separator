@@ -21,7 +21,7 @@ body {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background:linear-gradient(#93e6ff, #5f88e1) ;
+    background:linear-gradient(#93e6ff, #03163d) ;
     overflow-y:scroll;
     overflow-x: hidden;
     /*display: none;*/
@@ -30,14 +30,16 @@ body {
 #menu-heading {
     position: relative;
     margin-top: 0;
+    padding-top: 37px;
     left: 0;
-    height: 50px;
+    height: 90px;
     width: 100vw;
-    background: linear-gradient(#4242c5, #34b3d0);
+    background: linear-gradient(#2e2ec2, #34b3d0);
     font-size: 30px;
     line-height: 50px;
     text-align: center;
-    text-shadow: 2px 2px 3px gray;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 3px #4fa6e1;
     font-weight: 900;
 }
 
@@ -51,6 +53,7 @@ body {
     background: linear-gradient(#2f84d3, #5bd7dc);
     text-align: center;
     font-size: 30px;
+    text-shadow: 2px 2px 3px #57646d;
     font-weight: 600;
     line-height: 80px;
     border-radius: 20px;
