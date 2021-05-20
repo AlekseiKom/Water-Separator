@@ -1,12 +1,4 @@
 
-/* 
-TO DO:
-A bug with water transfer                                                      done
-Add "You Won"                                                                  done
-Add animations (while holding glass and while transferring water)              done
-Add restart button                                                             done
-*/
-
 var game,level,color=["red","blue","yellow","green","purple","lightgreen","lightblue","orange","brown","pink"],water=[],w=[],currentLevel,clicked=[],transferring=false,t=false,size=1,sizechange=0.05,won=false,moves=0;
 var testTubePosition = {
     0: [[-110,130], [-20, 130], [70, 130], [-65,320], [15, 320]],
