@@ -3,7 +3,7 @@
 
 body {
     font-family: Raleway;
-    user-select: none;
+    user-select: none;     
 }
 
 #game {
@@ -21,6 +21,11 @@ body {
     left: 0;
     height: 100vh;
     width: 100vw;
+    /* background-image: 
+            linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),
+            linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);
+        background-position: 0px 0px, 10px 10px;
+        background-size: 20px 20px;    */
     background:linear-gradient(#93e6ff, #03163d) ;
     overflow-y:scroll;
     overflow-x: hidden;
@@ -34,7 +39,7 @@ body {
     left: 0;
     height: 90px;
     width: 100vw;
-    background: linear-gradient(#2e2ec2, #34b3d0);
+    background: linear-gradient( #2e2ec2, #34b3d0);
     font-size: 30px;
     line-height: 50px;
     text-align: center;
