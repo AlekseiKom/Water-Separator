@@ -64,6 +64,7 @@ body {
     border-radius: 20px;
 }
 
+
 #level {
     z-index: 1;
     height: 100vh;
@@ -77,9 +78,9 @@ body {
     display: none;
 }
 
-.lvl:hover {
+/* .lvl:hover {
     background-color: green;
-}
+} */
 
 .test-tube {
     position: absolute;
